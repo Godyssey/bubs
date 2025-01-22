@@ -1,0 +1,112 @@
+:root {
+    --text: white;
+    --dark: #7c9b7a;
+    --light: #ec7267;
+    --accent: #9dc09c;
+    --accent-dark: #ce6056;
+    --header-shadow: 0px 5px rgba(255, 255, 255, 1), 
+                    0px 10px rgba(124, 155, 122, 1);
+    --text-shadow: 
+                    -2px -2px 0 white, 
+                    2px -2px 0 white,  
+                    -2px 2px 0 white,  
+                    2px 2px 0 white;   
+    --background: #fffbee;
+    --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ec7267' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zeyada", serif;
+}
+
+body {
+    background: var(--background);
+    background-image: var(--background-image);
+    color: var(--text);
+}
+
+.introduction-container {
+    position: relative;
+    text-align: center;
+    margin: 25px auto;
+    background-image: url('assets/flowerstrawberries.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.heading {
+    font-size: 50px;
+    text-align: center;
+    color: var(--light);
+    text-shadow: var(--header-shadow);
+    font-family: "Sriracha", serif;
+}
+
+.part-1-header {
+    color: var(--dark);
+    font-family: "Sriracha", serif;
+    text-shadow: var(--text-shadow);
+}
+
+.part-2-header {
+    color: var(--accent-dark);
+    font-family: "Sriracha", serif;
+    text-shadow: var(--text-shadow);
+}
+
+.part-3-header {
+    color: var(--light);
+    font-family: "Sriracha", serif;
+    text-shadow: var(--text-shadow);
+}
+
+.rounded-box {
+    display: inline-block;
+    background-color: var(--dark);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.part-1-container {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #c1cfc1;
+    background-image: url('assets/blueflowers.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.part-2-container {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #ec7267;
+    background-image: url('assets/strawberryflowers.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.part-3-container {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #ffd0c8;
+    background-image: url('assets/watermelonflowers.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
