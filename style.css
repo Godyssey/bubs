@@ -55,11 +55,11 @@ body {
 }
 
 /*INTRO & CON*/
-.ic-container {
+div.ic-container {
     position: relative;
     text-align: center;
     margin: 25px auto;
-    background-image: url('assets/flowerstrawberries.png');
+    background-image: url('Assets/flowerstrawberries.png');
     background-repeat: repeat;
     background-position: center;
     background-size: auto;
@@ -76,26 +76,26 @@ body {
 }
 
 /*PART 1*/
-.part-1-container {
+div.part-1-container {
     position: relative;
     text-align: center;
     margin: 50px auto;
     border-radius: 15px;
     background-color: #c1cfc1;
-    background-image: url('assets/blueflowers.png');
+    background-image: url('Assets/blueflowers.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
 }
 
 /*PART 2*/
-.part-2-container {
+div.part-2-container {
     position: relative;
     text-align: center;
     margin: 50px auto;
     border-radius: 15px;
     background-color: #ec7267;
-    background-image: url('assets/strawberryflowers.png');
+    background-image: url('Assets/strawberryflowers.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -114,13 +114,13 @@ td {
 }
 
 /*PART 3*/
-.part-3-container {
+div.part-3-container {
     position: relative;
     text-align: center;
     margin: 50px auto;
     border-radius: 15px;
     background-color: #ffd0c8;
-    background-image: url('assets/watermelonflowers.png');
+    background-image: url('Assets/watermelonflowers.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
