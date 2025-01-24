@@ -28,16 +28,6 @@ body {
     color: var(--text);
 }
 
-.introduction-container {
-    position: relative;
-    text-align: center;
-    margin: 25px auto;
-    background-image: url('assets/flowerstrawberries.png');
-    background-repeat: repeat;
-    background-position: center;
-    background-size: auto;
-}
-
 .heading {
     font-size: 50px;
     text-align: center;
@@ -64,6 +54,17 @@ body {
     text-shadow: var(--text-shadow);
 }
 
+/*INTRO*/
+.ic-container {
+    position: relative;
+    text-align: center;
+    margin: 25px auto;
+    background-image: url('assets/flowerstrawberries.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: auto;
+}
+
 .rounded-box {
     display: inline-block;
     background-color: var(--dark);
@@ -74,6 +75,7 @@ body {
     margin-top: 10px;
 }
 
+/*PART 1*/
 .part-1-container {
     position: relative;
     text-align: center;
@@ -86,6 +88,7 @@ body {
     background-size: auto;
 }
 
+/*PART 2*/
 .part-2-container {
     position: relative;
     text-align: center;
@@ -98,6 +101,19 @@ body {
     background-size: auto;
 }
 
+table {
+    position: relative;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*PART 3*/
 .part-3-container {
     position: relative;
     text-align: center;
